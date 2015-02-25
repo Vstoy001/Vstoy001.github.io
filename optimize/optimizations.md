@@ -8,6 +8,7 @@ PART 1:
 5- added media='print' to the link for print.css
 6- implemented @font-face
 --second check up on score result: Mobile 87; Desktop: 94
+7- implemented javascript to load font
 
 PART 2:
 --last 10 frame: ~20ms --> ~1ms
