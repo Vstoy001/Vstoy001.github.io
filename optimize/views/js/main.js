@@ -452,7 +452,7 @@ var resizePizzas = function(size) {
   function changePizzaSizes(size) {
       //make a list of pizza elements
       var pizzasList = document.querySelectorAll(".randomPizzaContainer");
-      //since all the pizza get resized to the same size, we can make the calcs here once
+      //since all the pizzas get resized to the same size, we can make the calcs here once
       var dx = determineDx(pizzasList[0], size);
       var newwidth = (pizzasList[0].offsetWidth + dx) + 'px';
       
