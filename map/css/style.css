@@ -51,7 +51,7 @@ body {
     background-color: rgba(255, 255, 255, 0.7);
 }
 
-#googlemap-container {
+.googlemap-container {
     float: left;
     width: 60%;
     height: 600px;
@@ -64,33 +64,37 @@ body {
     padding: 0;
 }
 
-@media only screen {
+@media only screen (and max-device-width < 640) {
     .greeting {
         color: black;
         text-shadow: 1px 1px 3px rgba(255, 255, 255, .5);
         text-align: center;
         font-size: 4em;
     }
+    
     #form-container {
         width: 100%;
         font-size: 3em;
     }
+    
     #interests-checker {
         width: 100%;
         font-size: 2.5em;
     }
-    .input {
-        size: 500px;
-        -ms-transform: scale(2);
-        -moz-transform: scale(2);
-        -webkit-transform: scale(2);
-        -o-transform: scale(2);
+    
+    input[type=text] {
         transform: scale(2);
     }
+    
+    input[type=checkbox] {
+        transform: scale(2);
+    }
+    
     .googlemap-container {
         width: 100%;
         height: 600px;
     }
+    
     #info-container {
         text-align: center;
         width: 100%;
