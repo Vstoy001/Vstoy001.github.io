@@ -86,7 +86,7 @@ body {
         height: 2.5em;
     }
     
-    #googlemap-container {
+    .googlemap-container {
         width: 100%;
         height: 600px;
     }
