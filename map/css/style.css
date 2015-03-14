@@ -80,10 +80,12 @@ body {
         font-size: 2.5em;
     }
     .input {
+        size: 500px;
         -ms-transform: scale(2);
         -moz-transform: scale(2);
         -webkit-transform: scale(2);
         -o-transform: scale(2);
+        transform: scale(2);
     }
     .googlemap-container {
         width: 100%;
