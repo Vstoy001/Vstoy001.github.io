@@ -83,7 +83,8 @@ body {
     }
     
     .input {
-        height: 2.5em;
+        width: 100px;
+        height: 250px;
     }
     
     .googlemap-container {
