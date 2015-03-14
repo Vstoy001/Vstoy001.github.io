@@ -82,13 +82,7 @@ body {
         font-size: 2.5em;
     }
     
-    input[type=text] {
-        transform: scale(2);
-    }
-    
-    input[type=checkbox] {
-        transform: scale(2);
-    }
+
     
     .googlemap-container {
         width: 100%;
