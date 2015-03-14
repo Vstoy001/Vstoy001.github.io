@@ -96,9 +96,9 @@ body {
         display: block;
         margin: 1em 0;
         font-size: 1em;
-        line-height: 2.5em;
+        line-height: 2em;
         font-weight: bold;
-        height: 60px;
+        height: 100px;
         width: 100%;
         border-radius: 10px;
     }
