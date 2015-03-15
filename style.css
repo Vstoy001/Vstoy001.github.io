@@ -2,9 +2,10 @@ body {
     font-family: "Lato", "Arial";
     color: #747704;
     font-weight: 300;
+    margin: 50px 50px 50px 50px;
 }
 
-h3 {
+h3 a {
     text-align: left;
 }
 
