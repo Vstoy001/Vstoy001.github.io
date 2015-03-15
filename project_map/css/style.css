@@ -39,7 +39,7 @@ body {
 
 .interest-list-item {
     padding: 5px;
-    border: 2px solid black;
+    border: 4px outset blue;
 }
 
 #info-container {
