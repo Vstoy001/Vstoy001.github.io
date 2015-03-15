@@ -4,6 +4,10 @@ body {
     font-weight: 300;
 }
 
+h3 {
+    text-align: left;
+}
+
 .text-muted {
     color: #BCBBBB;
 }
