@@ -9,6 +9,11 @@ h3 {
     text-align: left;
 }
 
+p {
+    text-align: left;
+    font-size: 14pt;
+}
+
 .text-muted {
     color: #BCBBBB;
 }
