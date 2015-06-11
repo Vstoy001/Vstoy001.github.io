@@ -1,75 +1,96 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">  
-    <link href="js/bootstrap.min.js">  
+<html ng-app="pageApp">
+
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="js/bootstrap.min.js">
     <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script href="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.0/ui-bootstrap.min.js"></script>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' type='text/css'>
-  
-    </head>
-  <body>
-    <div class="row">
-      <div class="col-md-6"><img class="img-responsive" src="images/avatar.png" data-toggle="modal" data-target="#logo"></div>
-      <div class="col-md-6 text-right">
-          <h1 class="text-uppercase text-thin text-muted">Victor Stoyanov</h1>
-          <h2>Front-end Web Developer</h2>
-      </div>
+
+</head>
+
+<body>
+    <div class="row header">
+        <div class="col-md-8"></div>
+        <div class="col-md-4 headerBorder text-right pull-right">
+            <h1 class="text-uppercase">Victor Stoyanov</h1>
+            <h2 class="text-uppercase text-thin">Front-end Web Developer</h2>
+        </div>
     </div>
-<!--
+    <!--
     <div class="row">
         <div class="col-md-12">
             <img class="img-responsive" src="http://placehold.it/1140x350">
         </div>
     </div>
 -->
-    <div class="row">
-        <div class="col-md-12">
-            <h2 class="text-muted">Featured Work</h2>
+    <div class="content">
+        {{test}}
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-3">
+                <img width="250px" src="images/zintera/Cases.png">
+            </div>
+            <div class="col-md-3">
+                <img width="250px" src="images/zintera/Itemized.png">
+            </div>
+            <div class="col-md-3">
+                <img width="250px" src="images/zintera/ub04.png">
+            </div>
+            <div class="col-md-3">
+                <img width="250px" src="images/zintera/modal.png">
+            </div>
+        </div>
+        
+        <div class="row text-center">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <a href="http://vstoy001.github.io/project_map/index.html"><img class="img-responsive" src="images/map_thumbnail.png">
+                </a>
+                <h3><a href="http://vstoy001.github.io/project_map/index.html"> Neighborhood Map Project </a></h3>
+                <p> Neighborhood map project in which you can search nearby a city's street for locations that vary in food, shopping, or relaxation. </p>
+
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        
+        <div class="row text-center">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <a href="http://vstoy001.github.io/project_game/index.html"><img class="img-responsive" src="images/frogger_game.png">
+                </a>
+                <h3><a href="http://vstoy001.github.io/project_game/index.html"> Frogger Style Game </a></h3>
+                <p> A simple frogger based game with lovely graphics. Collect gems for points and hearts for health increases. Watch out for the moving bugs that will damage your health! </p>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        
+        <div class="row text-center">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <a href="http://vstoy001.github.io/project_test/index.html"><img class="img-responsive" src="images/test_thumbnail.png">
+                </a>
+                <h3><a href="http://vstoy001.github.io/project_test/index.html"> Test Suite </a></h3>
+                <p> A series of tests run on a sample news feed. </p>
+            </div>
+            <div class="col-md-3"></div>
+            <!--
+        <div class="col-md-6">
+            <a href="http://vstoy001.github.io/project_resume/index.html"><img class="img-responsive" src="images/resume_thumbnail.png">
+            </a>
+            <h3><a href="http://vstoy001.github.io/project_resume/index.html"> Sample Resume </a></h3>
+            <p> A built up resume from jQuery, currently based off a project. </p>
+        </div>
+        -->
         </div>
     </div>
-    <div class="row text-center">
-      <div class="col-md-6">
-        <a href="http://vstoy001.github.io/project_map/index.html"><img class="img-responsive"  src="images/map_thumbnail.png"></a>
-        <h3><a href="http://vstoy001.github.io/project_map/index.html"> Neighborhood Map Project </a></h3>
-        <p> Neighbothood map project in which you can search nearby a city's street for locations that vary in food, shopping, or relaxation. </p>
+</body>
 
-      </div>
-      <div class="col-md-6">
-        <a href="http://vstoy001.github.io/project_game/index.html"><img class="img-responsive" src="images/frogger_game.png"></a>
-        <h3><a href="http://vstoy001.github.io/project_game/index.html"> Frogger Style Game </a></h3>
-        <p> A simple frogger based game with lovely graphics. Collect gems for points and hearts for health increases. Watch out for the moving bugs that will damage your health! </p>
-      </div>
-    </div>
-    <div class="row text-center">
-      <div class="col-md-6">
-        <a href="http://vstoy001.github.io/project_test/index.html"><img class="img-responsive" src="images/test_thumbnail.png"></a>
-          <h3><a href="http://vstoy001.github.io/project_test/index.html"> Test Suite </a></h3>
-          <p> A series of tests run on a sample news feed. </p>
-      </div>
-      <div class="col-md-6">
-        <a href="http://vstoy001.github.io/project_resume/index.html"><img class="img-responsive" src="images/resume_thumbnail.png"></a>
-          <h3><a href="http://vstoy001.github.io/project_resume/index.html"> Sample Resume </a></h3>
-          <p> A built up resume from jQuery, currently based off a project. </p>
-      </div>
-    </div>
-
-<div class="modal fade" id="logo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body img-responsive" src="http://placehold.it/100x100">
-        <p>&hellip;</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-      
-  </body>
 </html>

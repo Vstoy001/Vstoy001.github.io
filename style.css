@@ -2,7 +2,10 @@ body {
     font-family: "Lato", "Arial";
     color: #747704;
     font-weight: 300;
-    margin: 50px 50px 50px 50px;
+}
+
+.row {
+    margin: 0;
 }
 
 h3 {
@@ -14,8 +17,24 @@ p {
     font-size: 14pt;
 }
 
-.text-muted {
-    color: #BCBBBB;
+img {
+    border: solid 2px #00CCCC;
+}
+
+.content {
+    background-color: #CCCCCC;
+}
+
+.header {
+    width: 100%;
+    background-color: #00CCFF;
+    border-bottom: solid 2px #00CCCC;
+}
+
+.headerBorder {
+    border: solid 3px #0033FF;
+    border-radius: 30px;
+    margin: 10px;
 }
 
 .text-thin {
