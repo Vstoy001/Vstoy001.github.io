@@ -1,6 +1,6 @@
 body {
     font-family: "Lato", "Arial";
-    color: #747704;
+    color: #075A6D;
     font-weight: 300;
 }
 
@@ -12,6 +12,10 @@ h3 {
     text-align: left;
 }
 
+h3 a {
+    color: #076379;
+}
+
 p {
     text-align: left;
     font-size: 14pt;
@@ -21,13 +25,19 @@ img, iframe {
     border: solid 2px #2A8499;
 }
 
-.content {
-    background-color: #73BACB;
+.contentTop {
+    background: linear-gradient(-45deg, #013A47, #73BACB);
+}
+
+
+.contentBottom {
+    background: linear-gradient(-150deg, #013A47, #73BACB);
 }
 
 .header {
     width: 100%;
-    background-color: #075A6D;
+    background: linear-gradient(30deg, #0E768E, #013A47);
+    color: #73BACB;
     border-bottom: solid 2px #2A8499;
 }
 
