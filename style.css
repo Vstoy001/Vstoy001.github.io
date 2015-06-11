@@ -5,7 +5,7 @@ body {
 }
 
 .row {
-    margin: 0;
+    margin: 20px 0;
 }
 
 h3 {
@@ -17,22 +17,22 @@ p {
     font-size: 14pt;
 }
 
-img {
-    border: solid 2px #00CCCC;
+img, iframe {
+    border: solid 2px #2A8499;
 }
 
 .content {
-    background-color: #CCCCCC;
+    background-color: #73BACB;
 }
 
 .header {
     width: 100%;
-    background-color: #00CCFF;
-    border-bottom: solid 2px #00CCCC;
+    background-color: #075A6D;
+    border-bottom: solid 2px #2A8499;
 }
 
 .headerBorder {
-    border: solid 3px #0033FF;
+    border: solid 3px #0E768E;
     border-radius: 30px;
     margin: 10px;
 }
@@ -47,4 +47,8 @@ img {
 
 .title-logo {
     margin-top: 20px;
+}
+
+.embeddedObject {
+    margin: 0 20px;
 }
