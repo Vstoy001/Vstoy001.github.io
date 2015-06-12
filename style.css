@@ -1,6 +1,6 @@
 body {
     font-family: "Lato", "Arial";
-    color: #422919;
+    color: #A4B5D6;
     font-weight: 300;
 }
 
@@ -13,7 +13,8 @@ h3 {
 }
 
 h3 a {
-    color: #102B24;
+    color: #73BACB;
+    font-weight: bold;
 }
 
 p {
@@ -23,16 +24,16 @@ p {
 
 img,
 iframe {
-    border: solid 2px #FF7C2F;
+    border: solid 2px #105EF7;
 }
 
 .content {
-    background-color: #D38C2D;
+    background-color: #0046D0;
 }
 
 .header {
     width: 100%;
-    background: linear-gradient(30deg, #0E768E, #013A47);
+    background: linear-gradient(30deg, #003090, #0046D0);
     color: #73BACB;
     border-bottom: solid 2px #2A8499;
 }
