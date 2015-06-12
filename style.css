@@ -21,14 +21,14 @@ p {
     font-size: 14pt;
 }
 
-img, iframe {
+img,
+iframe {
     border: solid 2px #FF7C2F;
 }
 
 .content {
     background-color: #D38C2D;
 }
-
 
 .header {
     width: 100%;
@@ -37,8 +37,8 @@ img, iframe {
     border-bottom: solid 2px #2A8499;
 }
 
-.headerBorder {
-    border: solid 3px #0E768E;
+.border {
+    border: double 3px #0E768E;
     border-radius: 30px;
     margin: 10px;
 }
@@ -57,4 +57,14 @@ img, iframe {
 
 .embeddedObject {
     margin: 0 20px;
+}
+
+.headerText {
+    text-shadow: 
+        0 1px 0 #345049, 
+        0 2px 0 #345049, 
+        0 3px 0 #345049, 
+        0 4px 0 #345049, 
+        0 5px 0 #345049, 
+        0 6px 1px rgba(0, 0, 0, .1);
 }
