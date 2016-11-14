@@ -24,22 +24,22 @@ p {
 
 img,
 iframe {
-    border: solid 2px #105EF7;
+    border: solid 2px #0B589E;
 }
 
 .content {
-    background-color: #0046D0;
+    background-color: #2B353E;
 }
 
 .header {
     width: 100%;
-    background: linear-gradient(30deg, #003090, #0046D0);
-    color: #73BACB;
+    background: linear-gradient(30deg, #35373c, #3b404a);
+    color: #0D0D0D;
     border-bottom: solid 2px #2A8499;
 }
 
 .border {
-    border: double 3px #0E768E;
+    border: double 3px #0B589E;
     border-radius: 30px;
     margin: 10px;
 }
@@ -61,11 +61,11 @@ iframe {
 }
 
 .headerText {
-    text-shadow: 
-        0 1px 0 #345049, 
-        0 2px 0 #345049, 
-        0 3px 0 #345049, 
-        0 4px 0 #345049, 
-        0 5px 0 #345049, 
+    text-shadow:
+        0 1px 0 #007BE9,
+        0 2px 0 #007BE9,
+        0 3px 0 #007BE9,
+        0 4px 0 #007BE9,
+        0 5px 0 #007BE9,
         0 6px 1px rgba(0, 0, 0, .1);
 }
