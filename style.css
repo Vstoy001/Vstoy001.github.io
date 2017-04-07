@@ -65,7 +65,7 @@ iframe {
     text-shadow:
         1px 1px 0 #646567,
         1px 2px 0 #646567,
-        2px 3px 0 #545557,
-        2px 4px 0 #545557,
+        /*2px 3px 0 #545557,
+        2px 4px 0 #545557,*/
         3px 6px 1px rgba(0, 0, 0, .1);
 }
