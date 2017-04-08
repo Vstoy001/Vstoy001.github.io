@@ -17,10 +17,6 @@
     }
 }
 
-.col-50 {
-    max-width: 50%;
-}
-
 .row {
     width: 100%;
     display:flex;
