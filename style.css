@@ -67,7 +67,6 @@ iframe {
 .headerText {
     font-weight: bold;
     text-shadow:
-        1px 1px 0 #646567,
-        1px 2px 0 #646567,
-        3px 6px 1px rgba(0, 0, 0, .1);
+        1px 2px 1px rgba(0, 0, 0, .2),
+        2px 3px 1px rgba(0, 0, 0, .1);
 }
