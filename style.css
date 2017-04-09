@@ -27,8 +27,12 @@ iframe {
     border: solid 2px #0B589E;
 }
 
-.vidWrapper {
+.vidColWrapper {
     text-align: center;
+}
+
+.vidWrapper {
+    max-width: 100%;
     border: solid 2px #0B589E;
 }
 
